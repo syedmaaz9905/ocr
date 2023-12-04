@@ -1,0 +1,155 @@
+.app__home-greybg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__home-greybg-first {
+    display: flex;
+    flex-direction: row;
+}
+
+.app__home-greybg-second {
+    display: flex;
+    flex-direction: row;
+}
+
+.app__home-navs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 15px;
+    border-right: 1px solid rgba(0, 0, 0, 1);
+    gap: 6px;
+}
+
+.app__home-navs a {
+    color: black;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.app__home-ncl-neduet-atup {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(0, 0, 0, 1);
+}
+
+.app__home-neduet-atup-logo {
+    padding: 8px;
+}
+
+.app__socials-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(0, 0, 0, 1);
+    gap: 8px;
+}
+
+.app__home-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__home-socials img {
+    width: 37px;
+}
+
+.app__home-socials a {
+    background: #9E9E9E;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 175px;
+    height: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.app__home-bottom-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 15px;
+}
+
+.app__home-bottom-logo p {
+    text-align: left;
+    color: black;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .app__home-greybg {
+        flex-direction: column;
+    }
+
+    .app__home-ncl-neduet-atup {
+        border-right: none;
+    }
+
+    .app__home-greybg-first {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .app__home-greybg-second {
+        margin-bottom: 8px;
+    }
+}
+
+.app__home-midsection {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 549px) {
+    .app__home-greybg-first {
+        flex-direction: column;
+    }
+
+    .app__home-greybg-second {
+        flex-direction: column;
+    }
+
+    .app__home-navs {
+        border-right: none;
+        align-items: center;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .app__home-ncl-neduet-atup {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .app__socials-main {
+        border-right: none;
+        margin-bottom: 8px;
+    }
+
+    .app__home-bottom-logo {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
